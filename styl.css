@@ -1,0 +1,105 @@
+*
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html 
+{
+  scroll-behavior: auto;
+  font-size: 50%;
+}
+
+body 
+{
+  font-family: Times New Roman;
+}
+
+header
+ {
+  position: fixed;
+  min-width: 50vw;
+  z-index: 1;
+}
+
+.nav
+ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  min-height: 10vh;
+  background: black;
+}
+.nav-bar
+ {
+  float:center;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.nav-items a
+ {
+  font-size: 2rem;
+  text-decoration: none;
+  color: aquamarine;
+  padding: 0rem 5rem;
+}
+
+.blackpearl
+{
+	height: 100vh;
+	padding-top:100px;
+	font-size:40px;
+	background-image:url(reggae1.jpg);
+	background-size: 50%;
+	background-repeat: non-repeat;
+}
+h3{
+	color:darkgreen;
+	font-family:Helvetica;
+}
+.img-me
+ {
+	float:right;
+	margin-left:100px;
+	margin-right:100px;
+}
+.section-container-1 
+{
+  height: 100vh;
+  padding-top: 200px;
+  font-size:30px;
+  justify-content:center;
+  display:flex;
+	background-image:url(reggae.jpg);
+	background-size: cover;
+	background-repeat: non-repeat;
+  
+}
+.section-container-2 
+{
+	margin:0;
+	height: 100vh;
+	display: flex;
+	font-size:30px;
+	align-items:center;
+	justify-content:center;
+	background-color:coral;
+}
+.section-container-3 
+{
+	padding-top: 30px;
+	margin:0;
+	height: 100vh;
+	display: flex;
+	font-size:30px;
+	align-items:center;
+	justify-content:center;
+	background-color:aqua;
+}
+
